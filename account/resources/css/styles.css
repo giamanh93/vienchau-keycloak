@@ -228,8 +228,10 @@ div#kc-header{
     height: 64px;
     margin: auto;
     background: url('../img/logo_idv_no_bg.png');
-    background-size: contain;
     position: relative;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;   /* fit vào khung, không bị cắt */
 }
 #kc-form-wrapper {
     background: #fff;
