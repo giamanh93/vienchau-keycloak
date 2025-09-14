@@ -265,7 +265,7 @@ div#kc-header{
     text-shadow: none;
 }
 .login-pf body{
-    background: url('../img/logo_idv_no_bg.png');
+    background: url('../img/bg.png');
     background-size: cover;
     background-repeat: no-repeat;
 }
