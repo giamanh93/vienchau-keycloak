@@ -245,7 +245,7 @@ div#kc-header{
     margin-top: 30px;
 }
 #kc-form-login:before{
-    content: 'Đăng nhập ssssssssss';
+    content: 'Đăng nhập';
     display: block !important;
     position: absolute;
     left: 50px;
@@ -377,19 +377,19 @@ span.pf-m-error{
 }
 #kc-form-buttons:after{
     content: 'Đăng nhập';
-    display: block;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     text-indent: 0px;
     position: absolute;
     top: 0px;
     left: 0;
     width: 100%;
-    text-align: center;
-    line-height: 40px;
+    height: 100%;
     background: rgba(0, 159, 227, 1);
     text-shadow: none;
     font-size: 16px;
     letter-spacing: 0.5px;
-    bottom: 0px;
     z-index: 0;
     pointer-events: none;
 }
