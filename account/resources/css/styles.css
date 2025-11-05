@@ -301,7 +301,7 @@ div#kc-form form label[for="password"]::after{
     padding: 2px 8px 2px 16px;
     border-radius: 4px;
     border: 1px solid rgba(226, 230, 242, 1);
-    font-size: 14px;
+    font-size: 16px;
     color: #212633;
     margin-bottom: 0px;
 }
@@ -357,7 +357,9 @@ span.pf-m-error{
     text-indent: -99999999px;
     background: none;
     position: relative;
-    z-index: 999;
+    z-index: 1;
+    cursor: pointer;
+    -webkit-tap-highlight-color: transparent;
 }
 #kc-form-buttons{
     position: relative;
@@ -384,4 +386,23 @@ span.pf-m-error{
     letter-spacing: 0.5px;
     bottom: 0px;
     z-index: 0;
+    pointer-events: none;
+}
+
+/* Mobile optimization */
+@media (max-width: 768px) {
+    #kc-form-wrapper {
+        padding: 100px 20px 30px;
+        max-width: 100%;
+    }
+    
+    #kc-form-buttons input {
+        -webkit-appearance: none;
+        appearance: none;
+    }
+    
+    .form-group input {
+        -webkit-appearance: none;
+        appearance: none;
+    }
 }
