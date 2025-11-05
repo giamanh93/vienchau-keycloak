@@ -383,4 +383,5 @@ span.pf-m-error{
     font-size: 16px;
     letter-spacing: 0.5px;
     bottom: 0px;
+    z-index: 0;
 }
