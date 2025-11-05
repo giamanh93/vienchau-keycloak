@@ -417,4 +417,12 @@ span.pf-m-error{
     body {
         overflow-x: hidden;
     }
+    #kc-form-login:before {
+      top: 20px;
+      left: 100px;
+    }
+    #kc-form-login:after {
+     top: 67px;
+     left: 25px;
+    }
 }
